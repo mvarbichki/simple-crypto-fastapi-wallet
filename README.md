@@ -6,4 +6,4 @@ The app shows the exchange rate for a cryptocurrency and calculates by a given q
 (keep in mind that the site API refreshes every 60 seconds for crypto price changes).
 
 
-The app is deployed on deta.sh and can be tested here: https://ctotbg.deta.dev/docs#/
+The app is deployed on deta.sh and can be tested here: https://ctotbg.deta.dev/docs#/ . The database is located on the railway.app
