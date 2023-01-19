@@ -5,5 +5,6 @@ It could show reports for all or single transactions and send the report to emai
 The app shows the actual price for a cryptocurrency and calculates it by a given quantity in USD, EUR, or BGN
 (keep in mind that the site API refreshes every 60 seconds for crypto price changes).
 
+The database is located in the railway.app. The app is deployed on deta.sh and can be tested here: https://ctotbg.deta.dev/docs#/
 
-The app is deployed on deta.sh and can be tested here: https://ctotbg.deta.dev/docs#/ . The database is located in the railway.app
+DB tables are truncate daily (at 23:59 GMT+2) by tables_cleaning_script.py via Windows Task Scheduler to prevent the database from overflowing.
