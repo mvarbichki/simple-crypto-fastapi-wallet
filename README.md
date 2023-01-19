@@ -7,4 +7,4 @@ The app shows the actual price for a cryptocurrency and calculates it by a given
 
 The database is located in the railway.app. The app is deployed on deta.sh and can be tested here: https://ctotbg.deta.dev/docs#/
 
-DB tables are truncate daily (at 23:59 GMT+2) by tables_cleaning_script.py via Windows Task Scheduler to prevent the database from overflowing.
+DB tables are truncate daily (at 23:59 GMT+2) by tables_cleaning_script.py via Windows Task Scheduler to keep app clean for testing purposes.
